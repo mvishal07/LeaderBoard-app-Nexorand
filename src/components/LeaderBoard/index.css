@@ -1,0 +1,99 @@
+ul{
+    list-style: none;
+    width: 80%;
+}
+
+.user-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 18px;
+    
+}   
+
+.user-list:hover{
+    background-color: #c1c1c1;
+    border-radius: 7px;
+    padding: 18px;
+    height: 80px;
+}
+
+.leaderboard-card{
+    background-color: #e2dddd;
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.activebtn{
+    background-color: rgb(255, 102, 0);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 15px;
+    padding: 7px;
+    width: 90px;
+}
+
+.filterbtn{
+    background-color: rgb(206, 206, 206);
+    color: #000000;
+    border: 0px;
+    border-radius: 15px;
+    padding: 7px;
+    width: 90px;
+}
+
+.buttons-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.prize{
+    color: rgb(255, 102, 0);
+    font-family: roboto;
+}
+.points{
+    color: rgb(16, 164, 16);
+}
+
+.modal-content{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+   
+}
+
+.each-history{
+    border-bottom: .5px solid #1d1d1d;
+    
+}
+.modal-card{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.rank-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+    border: 1px solid #000000;
+    border-radius:20px;
+}
+
+.user-li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

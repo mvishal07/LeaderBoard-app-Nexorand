@@ -1,0 +1,78 @@
+
+
+
+  form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+  }
+  
+  input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+
+  .register-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+  }
+
+  .login-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+  }
+
+  .response-message{
+    color: red;
+  }
+  .register-btn{
+    background-color: #f61515;
+  }
+
+  label{
+    color: rgb(129, 129, 129);
+  }
